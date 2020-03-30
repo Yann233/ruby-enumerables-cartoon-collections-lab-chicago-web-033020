@@ -21,8 +21,8 @@ end
 #It should then look through these strings to find and return the first string that is a type of cheese.
 def find_the_cheese(array)
   # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
-  array.find { |cheese| cheese_types.include?(cheese)}
+  #cheese_types = ["cheddar", "gouda", "camembert"]
+  array.find { |cheese| "cheddar", "gouda", "camembert".include?(cheese)}
   #也可以用array.detect
 end
 

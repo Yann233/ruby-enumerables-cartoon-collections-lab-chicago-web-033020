@@ -23,7 +23,7 @@ def find_the_cheese(array)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
   array.find { |cheese| cheese_types.include?(cheese)}
-#array.select{} will go through all elements in the array looking those which match the condition. 
+#array.select{} will go through all elements in the array looking those which match the condition.
 #array.find instead will return the first element that match the condition
 end
 
